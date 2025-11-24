@@ -13,7 +13,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git branch: 'master', url: 'https://github.com/pvssvinay/studentmarkservice'
+        git branch: 'master', url: 'https://github.com/mukesh241104/devops-external'
       }
     }
 
